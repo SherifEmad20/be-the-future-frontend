@@ -17,7 +17,7 @@ function App() {
     e.preventDefault();
     try {
       let { data } = await axios.post(
-        "http://localhost:8080/api/v1/auth/login",
+        "http://ai-era-backend.herokuapp.com/api/v1/auth/login",
         {
           username: userName,
           password: password,
