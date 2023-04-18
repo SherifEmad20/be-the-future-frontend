@@ -33,7 +33,7 @@ function AdminRegister() {
   async function handleSubmit(e) {
     e.preventDefault();
     try {
-      await axios.post("http://ai-era-backend.herokuapp.com/api/v1/auth/register", {
+      await axios.post("https://ai-era-backend.herokuapp.com/api/v1/auth/register", {
         username: userName,
         password: password,
         email: email,
