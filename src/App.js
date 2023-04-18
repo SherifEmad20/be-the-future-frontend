@@ -36,6 +36,8 @@ import AllUsers from './pages/AllUsers';
 import AdminProducts from './pages/AdminProducts';
 import AdminCourses from './pages/AdminCourses';
 import AdminRegister from './pages/AdminRegister';
+import logo from './logo.svg';
+
 
 
 // import Chat from "./components/Chat";
