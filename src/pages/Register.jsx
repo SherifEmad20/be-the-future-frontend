@@ -119,6 +119,11 @@ function Register() {
                   type="checkbox"
                   id="vehicle1"
                   className="form-check-input"
+                  style={{
+                      width:"10px",
+                      height: "10px"
+                  }
+                  }
                   required
                 />
               </div>
@@ -130,9 +135,11 @@ function Register() {
                 </button>
               </div>
               <div className="col-md-6">
-                <a className="form-btn-a" href="/login">
-                  لدي حساب بالفعل
+                
+                  <a className="form-btn-a" href="/login" >
+                 لدي حساب بالفعل
                 </a>
+               
               </div>
             </div>
           </form>

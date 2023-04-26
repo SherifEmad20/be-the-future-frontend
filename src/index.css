@@ -48,12 +48,15 @@
 }
 
 
+
 .box-account {
   display: flex;
   background-color: #fff;
   width: 50%;
   height: 75%;
   overflow: hidden;
+  border-radius: 15px;
+  
 }
 
 .box-account .right {
@@ -65,17 +68,60 @@
   justify-content: center;
   flex-direction: column;
   overflow: hidden;
+  margin: 1px;
 }
 
 .box-account .left {
   background-color: #eaeaea;
   height: 100%;
-  width: 100%;
+  width: 90%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+.account-auth input{
+  width:90%;
+}
+@media screen and (max-width: 768px) {
+  .box-account {
+    width: 90%;
+    flex-direction: column;
+  }
+  .box-account .right {
+    height: 100%;
+    width: 100%;
+  }
+  .box-account .left {
+    visibility: hidden;
+    height: 0;
+  }
+  input{
+    width: 100%;
+  }
 
+}
+.row{
+  justify-content: space-between;
+}
+@media screen and (max-width: 940px) {
+  .box-account {
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .box-account .right {
+    height: 100%;
+    width: 90%;
+    align-self: center;
+    
+  }
+  .box-account .left {
+    visibility: hidden;
+    height: 0;
+  }
+
+
+}
 .box-account h2 {
   color: blueviolet;
   text-align: center;
@@ -97,6 +143,7 @@
 .account-auth {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .products-box {
@@ -108,45 +155,28 @@
 
 .account-auth input[type=text],
 input[type=password] {
-  width: 300px;
-  height: 40px;
-  margin-bottom: 10px;
+  width: 95%;
+  align-self: center;
+  margin-bottom: 2px;
   border: 1px solid #a9a9a9;
-  padding: 10px;
 }
 
 .form-btn {
   background: rgba(99, 88, 238, 1) 94.3%;
   border: none;
-  height: 50px;
+  height: 90%;
   width: 100%;
   color: #fff;
+
 }
 
 
-.form-btn-a {
-  background: rgba(99, 88, 238, 1) 94.3%;
-  border: none;
-  height: 50px;
-  width: 100%;
-  color: #fff;
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-}
 
 .form-btn:hover {
   background: rgb(72, 2, 224);
   transition: linear 0.3s;
 }
 
-.form-btn-a:hover {
-  background: rgb(72, 2, 224);
-  transition: linear 0.3s;
-  color: #fff;
-}
 
 .contact-us-page {
   width: 50%;
