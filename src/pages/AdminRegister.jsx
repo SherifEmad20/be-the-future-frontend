@@ -60,32 +60,32 @@ function AdminRegister() {
       >
         <div className="right">
           <div className="title-part">
-            <h2>أهلاً ومرحباً</h2>
-            <p>مرحباً بك في نظام إدارة المحتوى الذكي</p>
+            <h2>مرحبا في نظام Ai Era</h2>
+            {/* <p>مرحباً بك في نظام إدارة المحتوى الذكي</p> */}
           </div>
           <form className="account-auth" onSubmit={handleSubmit}>
             <input
               type="text"
               onChange={handleFnameChange}
-              placeholder="الاسم الاول"
+              placeholder="الإسم الأول"
               required
             />
             <input
               type="text"
               onChange={handleLnameChange}
-              placeholder="اسم العائلة"
+              placeholder="إسم العائلة"
               required
             />
             <input
               type="text"
               onChange={handleEmailChange}
-              placeholder="البريد الالكتروني"
+              placeholder="البريد الإلكتروني"
               required
             />
             <input
               type="text"
               onChange={handleUserNameChange}
-              placeholder="اسم المستخدم"
+              placeholder="إسم المستخدم"
               required
             />
             <input
@@ -96,11 +96,11 @@ function AdminRegister() {
             />
             <input
               type="password"
-              placeholder="اعد ادخال الرقم السري"
+              placeholder="أعد إدخال الرقم السري"
               required
             />
              <div>
-              <label htmlFor="options"> اختار دورك:   </label>
+              <label htmlFor="options"> إختار دورك:   </label>
               <br />
               <select id="options" value={role} onChange={handlehRolechange}>
               <option value="ROLE_CUSTOMER">عميل</option>
@@ -113,7 +113,7 @@ function AdminRegister() {
             </div>
             <div className="row">
               <div className="col-md-6">
-                <label for="vehicle1"> اوافق على الشروط والأحكام </label>
+                <label for="vehicle1"> أوافق على الشروط والأحكام </label>
               </div>
               <div className="col-md-6">
                 <input

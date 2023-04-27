@@ -42,14 +42,14 @@ function App() {
       <div className="box-account">
         <div className="right">
           <div className="title-part">
-            <h2>أهلاً ومرحباً</h2>
-            <p>مرحباً بك في نظام إدارة المحتوى الذكي</p>
+            <h2>مرحبا في نظام Ai Era</h2>
+            {/* <p>مرحباً بك في نظام إدارة المحتوى الذكي</p> */}
           </div>
 
           <form className="account-auth" onSubmit={handleSubmit}>
             <input
               type="text"
-              placeholder="اسم المستخدم"
+              placeholder="إسم المستخدم"
               onChange={handleUserNameChange}
             />
             <input

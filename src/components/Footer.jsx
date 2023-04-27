@@ -16,11 +16,11 @@ const Footer = () => {
                     <img src='images/test.svg' alt='' />
                   </a> */}
                 </div>
-                <p className='text-arabic-r'>
+                {/* <p className='text-arabic-r'>
                   أفضل موقع للتواصل بين العميل والموظف ، وإتمام جميع الأعمال ،
                   وتحقيق أعلى مستويات الكفاءة بأقل جهد وأقصر وقت ، بالاعتماد على
                   تقنية الذكاء الاصطناعي
-                </p>
+                </p> */}
               </div>
             </div>
             {/* <!-- col end --> */}
@@ -31,17 +31,17 @@ const Footer = () => {
                   <li>
                     <Link to='/about' className='text-arabicc'>
                       {' '}
-                      حول المؤسسة
+                      حول نظام Ai Era
                     </Link>
                   </li>
                   <li>
                     <Link to='/service'className='text-arabicc'>
                       {' '}
-                      خدماتنا
+                      خدمات نظام Ai Era
                     </Link>
                   </li>
                   <li>
-                    <a href='#' className='text-arabicc'>
+                    <a href='/notes' className='text-arabicc'>
                      التسويق الرقمي
                     </a>
                   </li>
@@ -55,7 +55,7 @@ const Footer = () => {
               </div>
             </div>
             {/* <!-- col end --> */}
-            <div className='col-lg-2 col-sm-6'>
+            {/* <div className='col-lg-2 col-sm-6'>
               <div className='footer-widget support'>
                 <h4 className='widget-title text-arabicc'>الدعم</h4>
                 <ul>
@@ -85,7 +85,7 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> */}
             {/* <!-- col end --> */}
             <div className='col-lg-3 offset-lg-1 col-sm-6'>
               <div className='footer-widget'>
@@ -102,7 +102,7 @@ const Footer = () => {
                   </button>
                 </form>
                 <ul>
-                  <li className='text-arabicc'>تليفون: 009-215-5596</li>
+                  {/* <li className='text-arabicc'>تليفون: 009-215-5596</li> */}
                   <li className='text-arabicc'>البريد الالكتروني: </li>
                 </ul>
               </div>

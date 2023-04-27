@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import myImage1 from "../images/b0392f46-1604-4b52-821e-bd797cf4786e.jpg";
-import myImage2 from "../images/Screenshot 2023-04-16 at 2.48.21 AM.png";
+import myImage2 from "../images/Screenshot 2023-04-27 at 2.09.04 AM.png";
 import myImage3 from "../images/e0f2ff9c-fbfd-44f5-8b03-402c69339b37.jpg";
 import myImage4 from "../images/e946df64-e3b5-42e4-8fe0-c59c7c1a9ea5.jpg";
 import myImage5 from "../images/b13a274c-03c9-4e9b-a6c6-47c854a9f0f0.jpg";
@@ -12,7 +12,7 @@ import myImage10 from "../images/Screenshot 2023-04-16 at 3.00.04 AM.png";
 import myImage11 from "../images/b5c14823-5e4e-4ad5-9b6b-c419f2a5eddc.jpg";
 import myImage12 from "../images/Screenshot 2023-04-16 at 3.02.00 AM.png";
 import myImage13 from "../images/Screenshot 2023-04-16 at 3.04.22 AM.png";
-import myImage14 from "../images/37d096e2-fe36-4050-a59e-8c2320cdee72.jpg";
+import myImage14 from "../images/4cdef3fb-b6d5-41b8-b0e0-057668de6513.jpg";
 import myImage15 from "../images/Screenshot 2023-04-16 at 3.06.54 AM.png";
 import myImage16 from "../images/WhatsApp Image 2023-04-17 at 3.04.42 AM.jpeg";
 import myImage17 from "../images/80e74878-ab49-4760-b624-26f32569773a.jpg";
@@ -32,11 +32,10 @@ const Main = () => {
                         Be The Future
                       </h1>
                       <p>
-                        اكفأ و اسرع موقع ويب يدعم العلاقات العامة بمساعدة تقنية
-                        الذكاء الاصطناعي و يقدم افضل المشروعات حول العالم
+                      أكفأ و أسرع نظام يدعم العلاقات العامه بإستخدام تقنيات الذكاء الإصطناعي
                       </p>
                       <Link to="/register" className="btn btn-v3">
-                        انضم إلينا
+                        إنضم إلينا
                       </Link>
                     </div>
                   </div>
@@ -65,8 +64,7 @@ const Main = () => {
               <div className="blockcain-top">
                 <h2 className="hidden-title">BeTheFuture</h2>
                 <h2 className="column-title text-arabicc font-ping-bold">
-                  مستقبل العالم بأجمعه يعتمد على تقنيات الذكاء الاصطناعي
-                </h2>
+                يعتمد مستقبل العالم بأجمعه علي تقنيات الذكاء  الإصطناعي .                </h2>
               </div>
             </div>
             {/* <!-- col end --> */}
@@ -76,10 +74,7 @@ const Main = () => {
             >
               <div className="blockcain-top-content">
                 <p className="text-arabicc">
-                  لقد ساعدنا الذكاء الاصطناعي علي انشاء انظمة ذو كفاءة عالية و
-                  التواصل السريع التلقائي مع العملاء، وتحديد الانماط و حل
-                  المشكلات و العوائٍق، جعلنا اعتمادنا علي التنبؤات التي تحددها
-                  النمذجة التنبؤية من اجل اتمام جميع المهام ذات التعقيد الشديد.
+                لقد ساعدنا الذكاء الإصطناعي علي إنشاء أنظمه ذات كفاءة عالية كما ساعد في سرعة التواصل مع العملاء  و تحديد الأنماط  و حل المشكلات و العوائق ، و جعلنا نعتمد علي  التنبؤات  التي تحددها  النماذج التنبؤيه من أجل إتمام  جميع المهام المعقده
                 </p>
               </div>
             </div>
@@ -101,11 +96,11 @@ const Main = () => {
             <div className="row">
               <div className="col-lg-8 mx-auto">
                 <div className="section-title-item v3">
-                  <small className="xs-section-title font-ping-medium">
+                  {/* <small className="xs-section-title font-ping-medium">
                     خدمات الموقع
-                  </small>
+                  </small> */}
                   <h2 className="section-title font-ping-bold">
-                    أهم ما يقدمه موقعنا
+                  أهم ما يقدمه نظام Ai Era
                   </h2>
                 </div>
               </div>
@@ -120,10 +115,7 @@ const Main = () => {
                       محادثة جماعية
                     </h3>
                     <p className="font-ping-medium">
-                      افضل طريقة لتواصل الجميع بسهولة و دون تعقيد هي المحادثة
-                      الجماعية التي يتمكن جميع الموظفين من المشاركة فيها لتبادل
-                      الافكار و الآراء للوصول لأفضل الحلول واعلي كفاءة في العمل
-                      و في اقل وقت ممكن.
+                    يمكن نظام  Ai Era جميع الموظفين من المشاركة لتبادل الأفكار و الآراء التي تهدف الي تقدم و رقي المؤسسه .
                     </p>
                   </div>
                 </div>
@@ -135,10 +127,7 @@ const Main = () => {
                       تدريبات خاصة
                     </h3>
                     <p className="font-ping-medium">
-                      افضل طريقة لتحسين كفاءة الموظفين بسهولة و بتعاون، توفير
-                      جميع التدريبات التي يحتاجها اي موظف و عمل تصويت علي كل
-                      تدريب علي حدي، و بتقينة الذكاء الاصطناعي يتم تحديد اهم
-                      تدريب يتم اتاحته للتسجيل من قبل اي موظف.
+                    يمكن نظام Ai Era الموظفين من تحسين كفاءتهم عن طريق توفير كافة التدريبات التي يحتاج اليها الموظف بستخدام تقنيات الذكاء الإصطناعي .
                     </p>
                   </div>
                 </div>
@@ -195,7 +184,7 @@ const Main = () => {
               >
                 <div className="blockcain-content">
                   <h3 className="column-title text-arabicc font-ping-bold">
-                    أعلى جودة وأقل وقت
+                  يقدم نظام Ai Era أفضل حل للتواصل بين موظفين الشركة و عملائها 
                   </h3>
                   <p className="text-arabicc font-ping-medium">
                     موقعنا يقدم افضل و اميز حل للتواصل السريع و السهل بين
@@ -633,7 +622,7 @@ const Main = () => {
             <div className="row">
               <div className="col-lg-8 mx-auto">
                 <div className="section-title-item v3">
-                  <small className="xs-section-title">توثيق</small>
+                  {/* <small className="xs-section-title">توثيق</small> */}
                   <h2 className="section-title">الوثائق الخاصة بموقعنا</h2>
                 </div>
               </div>
@@ -650,7 +639,7 @@ const Main = () => {
                   role="tablist"
                   aria-orientation="horizontal"
                 >
-                  <a
+                  {/* <a
                     className="active col-md"
                     id="v-pills-home-tab"
                     data-toggle="pill"
@@ -661,9 +650,9 @@ const Main = () => {
                   >
                     <i className="icon-wallet"></i>
                     خطوات اتمام الموقع
-                  </a>
+                  </a> */}
 
-                  <a
+                  {/* <a
                     className="col-md"
                     id="v-pills-profile-tab"
                     data-toggle="pill"
@@ -674,7 +663,7 @@ const Main = () => {
                   >
                     <i className="icon-whitepaper"></i>
                     التقنيات المستخدمة في الموقع
-                  </a>
+                  </a> */}
 
                   <a
                     className="col-md"
@@ -686,7 +675,7 @@ const Main = () => {
                     aria-selected="false"
                   >
                     <i className="icon-report"></i>
-                    كيفية استخدام الموقع
+                    كيفيه التعامل مع نظام Ai Era
                   </a>
 
                   <a
@@ -699,7 +688,7 @@ const Main = () => {
                     aria-selected="false"
                   >
                     <i className="icon-structure"></i>
-                    دور الذكاء الاصطناعي في إنشاء الموقع
+                    دور الذكاء الاصطناعي في نظام Ai Era
                   </a>
                 </div>
                 {/* <!-- tab menu end --> */}
@@ -1027,15 +1016,13 @@ const Main = () => {
                           <tbody>
                             <tr>
                               <td>
-                                تم توظیف ال AI انھ یساعد مدیر ال HR في تقییم
-                                أداء الموظفین بناءا على عملھم وأدائھم في المھام
-                                ومعرفة ما یحتاجھ كل موظف لتحسین عملھ وانتاج أفضل
+                              تم توظيف الذكاء الإصطناعي لمساعدة مدير الموارد البشريه (hr) في تقييم أداء الموظفين بناءً علي ما تم تقديمه من أعمال و مهام و معرفة ما يحتاجه كل موظف لتحسين عمله .
                               </td>
                               <td>٦/٣/٢٠٢٣</td>
                             </tr>
                             <tr>
                               <td>
-                                تم استخدام ML وھي تقنیة ذكاء اصطناعي لعمل نمذجة
+                              تم استخدام ML وھي تقنیة ذكاء اصطناعي لعمل نمذجة
                                 تنبؤیة لاختیار أفضل الموظفین ل عمل مھام محددة،
                                 ولاختیار مراحل القوة في العمل لتحقیق اعلي كفاءة
                                 بأقل جھد و أسرع وقت
@@ -1044,16 +1031,16 @@ const Main = () => {
                             </tr>
                             <tr>
                               <td>
-                                تم استخدام ال AI في القیام بعملیة تنقیة تلقائیة
+                              تم استخدام ال AI في القیام بعملیة تنقیة تلقائیة
                                 من اراء العملاء والمشاكل التي قد حدثت من قبل في
                                 الاستفادة من تلك المشكلات والخطوات التي یجب
-                                اتبعھا لعدم الوقوع في تلك المشكلات
+                              اتباعها لعدم الوقوع في تلك المشكلات
                               </td>
                               <td>٨/٣/٢٠٢٣</td>
                             </tr>
                             <tr>
                               <td>
-                                تم استخدام ال ML كا تقنیة لعمل نمذجة تنبؤیة بما
+                              تم استخدام ال ML كا تقنیة لعمل نمذجة تنبؤیة بما
                                 سوف تحققھ الشركة لو توفرت تدریبات محددة للموظفین
                                 لزیادة كفائتھم في العمل وتقلیل وقت العمل
                               </td>
@@ -1061,14 +1048,14 @@ const Main = () => {
                             </tr>
                             <tr>
                               <td>
-                                یوجد Chatbot باستخدام تقنیة ال AI، وھو مسئول على
-                                الرد على العملاء وأي استفسار یخص الویب
+                              یوجد Chatbot باستخدام تقنیة ال AI، وھو مسئول على
+                                الرد على العملاء وأي استفسار یخص الویب بشكل تلقائي و في أسرع وقت .
                               </td>
                               <td>٩/٣/٢٠٢٣</td>
                             </tr>
                             <tr>
                               <td>
-                                تم استخدام ال AI في اختيار تصمیمات الوجھ تتناسب
+                              تم استخدام ال AI في اختيار تصمیمات الوجهه تتناسب
                                 مع موضوع الویب ومع الموضوعات/الخدمات التي یقدمھا
                                 الویب
                               </td>
@@ -1118,8 +1105,8 @@ const Main = () => {
             <div className="row">
               <div className="col-lg-8 mx-auto">
                 <div className="section-title-item">
-                  <small className="xs-section-title">خبراءنا المتميزين</small>
-                  <h2 className="section-title">أهم أعضاء الموقع</h2>
+                  {/* <small className="xs-section-title">خبراءنا المتميزين</small> */}
+                  <h2 className="section-title">مؤسسين نظام Ai Era</h2>
                 </div>
               </div>
             </div>

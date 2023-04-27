@@ -52,6 +52,8 @@ function App() {
         <Route path="/login" component={Login}/>
         <Route path="/register" component={Register} />
         <Route exact path="/" component={Main}/>
+        {/* <Route path="/about" component={AboutUs}/>
+        <Route path="/service" component={Service}/> */}
         <ProtectedRoutes path="/about" component={AboutUs}/>
         <ProtectedRoutes path="/contact" component={ContactUs}/>
         <ProtectedRoutes path="/courses" component={Courses}/>
