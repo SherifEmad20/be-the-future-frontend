@@ -113,20 +113,20 @@ function Register() {
             <div className="row">
               <div className="col-md-6">
                 <label for="vehicle1"> أوافق على الشروط والأحكام </label>
-              </div>
-              <div className="col-md-6">
                 <input
                   type="checkbox"
                   id="vehicle1"
                   className="form-check-input"
-                  style={{
-                      width:"10px",
-                      height: "10px"
-                  }
+                  style={
+                    {
+                      width:"20px",
+                      height:"20px",
+                    }
                   }
                   required
                 />
               </div>
+            
             </div>
             <div className="row">
               <div className="col-md-6">

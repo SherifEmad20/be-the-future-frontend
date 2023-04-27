@@ -89,16 +89,19 @@
   }
   .box-account .right {
     height: 100%;
-    width: 100%;
+    width: 90%;
   }
   .box-account .left {
     visibility: hidden;
     height: 0;
   }
-  input{
-    width: 100%;
-  }
 
+
+}
+.form-check-input{
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
 }
 .row{
   justify-content: space-between;
