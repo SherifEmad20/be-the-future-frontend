@@ -100,7 +100,7 @@ const Main = () => {
                     خدمات الموقع
                   </small> */}
                   <h2 className="section-title font-ping-bold">
-                  أهم ما يقدمه نظام Ai Era
+                  أهم ما يقدمه  Ai Era System
                   </h2>
                 </div>
               </div>
@@ -115,7 +115,7 @@ const Main = () => {
                       محادثة جماعية
                     </h3>
                     <p className="font-ping-medium">
-                    يمكن نظام  Ai Era جميع الموظفين من المشاركة لتبادل الأفكار و الآراء التي تهدف الي تقدم و رقي المؤسسه .
+                    يمكن  Ai Era System جميع الموظفين من المشاركة لتبادل الأفكار و الآراء التي تهدف الي تقدم و رقي المؤسسه .
                     </p>
                   </div>
                 </div>
@@ -127,7 +127,7 @@ const Main = () => {
                       تدريبات خاصة
                     </h3>
                     <p className="font-ping-medium">
-                    يمكن نظام Ai Era الموظفين من تحسين كفاءتهم عن طريق توفير كافة التدريبات التي يحتاج اليها الموظف بستخدام تقنيات الذكاء الإصطناعي .
+                    يمكن  Ai Era System الموظفين من تحسين كفاءتهم عن طريق توفير كافة التدريبات التي يحتاج اليها الموظف بستخدام تقنيات الذكاء الإصطناعي .
                     </p>
                   </div>
                 </div>
@@ -139,9 +139,7 @@ const Main = () => {
                       مهام اضافية
                     </h3>
                     <p className="font-ping-medium">
-                      افضل طريقة لتدعيم العلاقات العامة، هو مساعدة بعضنا للحصول
-                      علي اعلي كفاءة بالإضافة للحصول علي نقاط زائدة تُحول ل
-                      نقديا مقابل اي مجهود يُبذل.
+                    يمكن  Ai Era System الموظفين من مساعدة بعضهم البعض عن طريق القيام بالمهام الاضافية و ذلك بمقابل مادي يحدد علي حسب المهمة المطلوب إتمامها
                     </p>
                   </div>
                 </div>
@@ -184,7 +182,7 @@ const Main = () => {
               >
                 <div className="blockcain-content">
                   <h3 className="column-title text-arabicc font-ping-bold">
-                  يقدم نظام Ai Era أفضل حل للتواصل بين موظفين الشركة و عملائها 
+                  يقدم  Ai Era System أفضل حل للتواصل بين موظفين الشركة وعملائها 
                   </h3>
                   <p className="text-arabicc font-ping-medium">
                     موقعنا يقدم افضل و اميز حل للتواصل السريع و السهل بين
@@ -675,7 +673,7 @@ const Main = () => {
                     aria-selected="false"
                   >
                     <i className="icon-report"></i>
-                    كيفيه التعامل مع نظام Ai Era
+                    كيفيه التعامل مع  Ai Era System
                   </a>
 
                   <a
@@ -688,7 +686,7 @@ const Main = () => {
                     aria-selected="false"
                   >
                     <i className="icon-structure"></i>
-                    دور الذكاء الاصطناعي في نظام Ai Era
+                    دور الذكاء الاصطناعي في  Ai Era System
                   </a>
                 </div>
                 {/* <!-- tab menu end --> */}
@@ -704,10 +702,10 @@ const Main = () => {
                       <div className="row">
                         <div className="col-md-6 align-self-center">
                           <div className="xs-tabs-content">
-                            <h3 className="xs-single-title">
+                            {/* <h3 className="xs-single-title">
                               احصل علي الوثيقة
                             </h3>
-                            <span className="release_vertion">أحدث وثيقة</span>
+                            <span className="release_vertion">أحدث وثيقة</span> */}
 
                             {/* <ul className='download-logo'>
                               <li>
@@ -797,6 +795,49 @@ const Main = () => {
                       role="tabpanel"
                       aria-labelledby="v-pills-report-tab"
                     >
+                      <div className='man-nahn2'>
+                        <ul>
+                        {/* <li>
+                        مؤسسة AI ERA هي مجموعة من الأنظمة المشتركة لمواكبة العصر الحالي
+                        للتكنولوجيا، ولبناء تلك الأنظمة تم الاستعانة ب تقنية الذكاء
+                        الاصطناعي لمساعدة قسم العلاقات العامة في إدارة أنظمة المؤسسة.
+                        </li>
+                        <br /> */}
+
+                        <li>
+                        <p> تسجيل الدخول للموقع:  </p>
+                        يمكن Ai Era System المستخدم من إنشاء حساب جديد عن طريق الضغط علي زر (إنضم إلينا) الموجود بأعلي الصفحة الرئيسية
+                        </li>
+                        <br />
+
+                        <li>
+                        <p>تحديد الملف الشخصي:  </p>
+                        يمكن Ai Era System المستخدم من تحديد الملف الشخصي الذي يود إنشائه أثناء عملية تسجيل الدخول سواء كان (موظف ، عميل ، مدير)
+                        </li>
+                        <br />
+
+                        <li>
+                        <p>في حاله كان المستخدم عميل :</p>
+                        يمكن Ai Era System العميل من إضافة المشروع الخاص به وإدخال جميع البيانات المطلوبة ، يمكنه ايضا من تعديل بيانات ملفه الشخصى في أي وقت، بالإضافة الي خاصية ال chatbot المميزة بالموقع ليتم الإجابة علي جميع أسئلة العميل بطريقة سريعة
+                        </li>
+                        <br />
+
+
+                        <li>
+                        <p>في حاله كان المستخدم موظف :</p>
+                        يمكن Ai Era System الموظف من إضافة المهام الإضافية التي لم يقدر علي إنجازها، يمكنه أيضا من مراجعه جميع الدورات المتاحه بالموقع و التصويت علي أي دوره يريد التسجيل بها، بالإضافة لخاصية ال chatroom الخاصة بموظفين الشركة للتواصل معا بسهولة وحل المشكلات
+                        </li>
+                        <br />
+
+
+                        <li>
+                        <p>في حاله كان المستخدم مدير :</p>
+                        يمكن Ai Era System المدير من مراجعه جميع المشاريع التي تم إضافتها من قبل العملاء لتقسيم كل مشروع لمجموعه مهام و كل مهمه يكلف بها موظف معين، يمكنه ايضا من إضافة الدورات التي تفيد الموظفين، بالإضافة الي إضافة نقاط إضافية لكل موظف عندما يقوم بإنجاز مهمه إضافية علي مهامه
+                        </li>
+                        <br />
+                        </ul>
+                        </div>  
+                      
                       <div className="report-table table-responsive">
                         {/* <table className='table'>
                           <thead>
@@ -1106,7 +1147,7 @@ const Main = () => {
               <div className="col-lg-8 mx-auto">
                 <div className="section-title-item">
                   {/* <small className="xs-section-title">خبراءنا المتميزين</small> */}
-                  <h2 className="section-title">مؤسسين نظام Ai Era</h2>
+                  <h2 className="section-title">مؤسسين Ai Era System</h2>
                 </div>
               </div>
             </div>

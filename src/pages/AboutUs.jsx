@@ -9,7 +9,7 @@ function AboutUs() {
               }}>
         <div className='title'>
           <h2>
-          <u>حول نظام Ai era</u>
+          <u>حول  Ai Era System</u>
           </h2>
         </div>
 
@@ -52,7 +52,7 @@ function AboutUs() {
 
 
             <li>
-              <u><p>ما يخص نظام Ai Era:</p></u>
+              <u><p>ما يخص  Ai Era System:</p></u>
               هو نظام يعمل لمواكبة العصر الحالي للتكنولوچيا و مساعدة ادارة العلاقات العامة في كافة المؤسسات 
             </li>
             <br />

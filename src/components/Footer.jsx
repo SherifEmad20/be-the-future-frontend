@@ -31,16 +31,17 @@ const Footer = () => {
                   <li>
                     <Link to='/about' className='text-arabicc'>
                       {' '}
-                      حول نظام Ai Era
+                      حول  Ai Era System
                     </Link>
                   </li>
                   <li>
                     <Link to='/service'className='text-arabicc'>
                       {' '}
-                      خدمات نظام Ai Era
+                      خدمات  Ai Era System
                     </Link>
                   </li>
-                  <li>
+
+                  {/* <li>
                     <a href='/notes' className='text-arabicc'>
                      التسويق الرقمي
                     </a>
@@ -50,7 +51,8 @@ const Footer = () => {
                       {' '}
                       صناعة المحتوي الابداعي
                     </a>
-                  </li>
+                  </li> */}
+
                 </ul>
               </div>
             </div>
@@ -90,20 +92,27 @@ const Footer = () => {
             <div className='col-lg-3 offset-lg-1 col-sm-6'>
               <div className='footer-widget'>
                 <h4 className='widget-title text-arabicc'>تواصل معنا </h4>
-                <form method='get' className='widget-subscibe'>
+                {/* <form method='get' className='widget-subscibe'>
                   <input
                     type='email'
                     name='email'
                     className='subscribe-email'
                     placeholder='Email'
                   />
-                  <button type='submit' className='subs-btn'>
-                    <i className='fa fa-paper-plane'></i>
-                  </button>
-                </form>
+                  <div>
+                  <a href="aiera3561@gmail.com" target="_blank" rel="noreferrer">
+                  <button>send</button>
+                  </a>
+                  </div>
+                </form> */}
                 <ul>
                   {/* <li className='text-arabicc'>تليفون: 009-215-5596</li> */}
-                  <li className='text-arabicc'>البريد الالكتروني: </li>
+                  <li className='text-arabicc'>البريد الإلكتروني:</li>
+                  <li className='text-arabicc'>aiera3561@gmail.com</li> <br></br>
+                  <li className='text-arabicc'> العنوان:</li>
+                  <li className='text-arabicc'>الحصري-مدينة ٦ أكتوبر-الجيزة</li> <br></br>
+                  {/* <li className='text-arabicc'>رقم التواصل :</li>
+                  <li className='text-arabicc'>01123246781</li> */}
                 </ul>
               </div>
             </div>
