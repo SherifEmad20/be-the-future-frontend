@@ -83,6 +83,10 @@
   width:90%;
 }
 @media screen and (max-width: 768px) {
+  .hidden-title{
+    visibility: hidden;
+    height: 0;
+  }
   .box-account {
     width: 90%;
     flex-direction: column;
@@ -107,6 +111,10 @@
   justify-content: space-between;
 }
 @media screen and (max-width: 940px) {
+  .hidden-title{
+    visibility: hidden;
+    height: 0;
+  }
   .box-account {
     width: 90%;
     flex-direction: column;
