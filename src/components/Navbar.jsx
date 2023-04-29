@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 import jwtDecode from "jwt-decode";
+import { useState } from "react";
+
 const Navbar = () => {
   let role;
   let token;
@@ -14,34 +16,67 @@ const Navbar = () => {
     window.location.reload();
   };
 
+  var [show, setShow] = useState(false);
+  
+  const handleClick = () => {
+    console.log('Button clicked');
+    if (show) {
+      setShow(false);
+      return;
+    }
+    else
+      setShow(true);
+  }
+
+
   return (
     <>
       <header className="header header-v3"
       style={
         {
           display: "fixed",
+          //marginBottom: "25%",
         }}
       >
+
         <div className="container">
-          <nav id="navigation1" className="navigation display-flex">
-            <div className="nav-header">
+          <nav id="navigation1" style={
+            {
+              justifyContent: "space-between",
+
+            }
+          } className="navigation display-flex">
+            <div className="nav-header"> 
               <Link className="nav-brand" to="/">
                 <img className="img-header" src="images/test.svg" alt="" />
               </Link>
               <div className="nav-toggle"></div>
             </div>
 
-            <div className="nav-menus-wrapper xs-menu"
-            >
-              <ul className="nav-menu align-to-right"
-                                        style={
-                                          {
-                                            display: "flex",
-                                            flexDirection: "row",
-                                            
-                                          }
-                                        }
-              >
+            <button className="dropDown"
+            style={
+              {
+                backgroundColor: "transparent",
+                alignSelf: "end",
+
+              }
+            
+            }  onClick={() => handleClick()}><img src="images/menu.png" alt="Button Image" 
+            style={
+              {
+                width: "50px",
+                height: "50px",
+            }
+          }
+            /></button>
+            {show && (
+            <div className="nav-menus-wrapper xs-menu">
+
+              <ul className="nav-menu align-to-right" style={
+                {
+                  backgroundImage: "linear-gradient(83.2deg, rgba(150, 93, 233, 1) 10.8%, rgba(99, 88, 238, 1) 94.3%)",     
+                  }           
+              }>
                 
                 {role === "ROLE_MANAGER" && (
                   <>
@@ -161,7 +196,7 @@ const Navbar = () => {
                   </li>
                 )}
               </ul>
-            </div>
+            </div>)}
           </nav>
         </div>
       </header>

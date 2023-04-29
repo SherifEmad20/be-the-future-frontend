@@ -5,7 +5,7 @@ function AboutUs() {
     <div className='background-gradiant d-flex'>
       <div className='about-page d-flex'
               style={{
-                marginTop:"5%",
+                //marginTop:"5%",
               }}>
         <div className='title'>
           <h2>
