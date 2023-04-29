@@ -166,9 +166,9 @@
 
 .account-auth input[type=text],
 input[type=password] {
+  margin: 5px;
   width: 95%;
   align-self: center;
-  margin-bottom: 2px;
   border: 1px solid #a9a9a9;
 }
 
