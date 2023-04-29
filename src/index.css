@@ -257,6 +257,13 @@ input[type=password] {
   font-size: small;
 }
 
+.man-nahn2 {
+  text-align: justify;
+  margin-top: 20px;
+  font-size: small;
+  color: #fff;
+  background-color: indigo;
+}
 .about-page{
   width: 80%;
   margin-top: 50px;

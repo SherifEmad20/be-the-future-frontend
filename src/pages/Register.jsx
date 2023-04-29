@@ -60,7 +60,7 @@ function Register() {
       >
         <div className="right">
           <div className="title-part">
-            <h2>مرحبا في نظام Ai Era</h2>
+            <h2>مرحبا في  Ai Era System</h2>
             {/* <p>مرحباً بك في نظام إدارة المحتوى الذكي</p> */}
           </div>
           <form className="account-auth" onSubmit={handleSubmit}>
