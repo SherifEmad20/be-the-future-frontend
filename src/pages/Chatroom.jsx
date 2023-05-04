@@ -25,7 +25,7 @@ const ChatRoom = () => {
   }, [userData]);
 
   const connect = () => {
-    let Sock = new SockJS("https://ai-era-back.herokuapp.com/ws");
+    let Sock = new SockJS("https://ai-era-backend.herokuapp.com/ws");
     stompClient = over(Sock);
     stompClient.connect({}, onConnected, onError);
   };
