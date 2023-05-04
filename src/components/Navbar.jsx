@@ -35,7 +35,6 @@ const Navbar = () => {
       style={
         {
           display: "fixed",
-          //marginBottom: "25%",
         }}
       >
 
